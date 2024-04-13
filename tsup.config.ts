@@ -1,19 +1,22 @@
 import { defineConfig } from "tsup";
-import config from "@bricked/tsup-config";
+import config from "@bricked/tsup-config/minify";
 
 export default defineConfig({
   ...config,
-  entry: ["src/**/*.ts"],
+  entry: ["src/fancade-plus.user.ts"],
   tsconfig: "src/tsconfig.json",
-	banner: {
-		js: `
+  banner: {
+    js: `
 		// ==UserScript==
 		// @name        Fancade Plus
-		// @namespace   fancade
+		// @namespace   https://play.fancade.com
 		// @match       https://play.fancade.com/*
-		// @version     1.0
 		// @author      Bricked
-		// @description Makes Fancade Web more accessible on mobile.
+		// @license     MIT
+	  // @description Makes Fancade Web more accessible on mobile.
+	  // @icon        https://play.fancade.com/webapp/favicon.ico
+	  // @source      https://github.com/brckd/fancade-plus
+	  // @supportURL  https://github.com/brckd/fancade-plus/issues
 		// ==/UserScript==
 		`.replace(/(\n)\s+/g, "$1"),
   },

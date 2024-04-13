@@ -47,6 +47,7 @@
     "@bricked/ts-config": "^1.2.3",
     "@bricked/tsup-config": "^1.0.0",
     "@commitlint/config-conventional": "^17.6.5",
+    "@schemastore/web-manifest": "^0.0.6",
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "commitlint": "^17.6.6",
     "eslint": "^8.48.0",
