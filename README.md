@@ -8,9 +8,10 @@ A userscript to make [Fancade Web](https://play.fancade.com) more accessible on 
 ## Features
 
 - Install Fancade Web like a native app
-- Instantly immerse into full-screen game play
-- Physical keyboard support
-- Increased feature parity
+- Jump right into full-screen game play
+- Say goodbye to pesky cookie settings
+- Create faster with physical keyboard support
+- Enjoy overall increased feature parity
 
 ## Using
 
@@ -28,10 +29,27 @@ Then go to [Fancade Web](https://play.fancade.com) to use it.
 
 ## Building
 
-The package can be built locally using the `build` script.
+Enter ze repo.
+
+```sh
+git clone https://github.com/brckd/fancade-plus
+cd fancade-plus
+```
+
+Install ze dependencies.
+
+```sh
+npm ci
+bun install
+yarn install
+pnpm install
+```
+
+Ze package can be built locally using the `build` script.
 
 ```sh
 npm run build
+bun run build
 yarn run build
 pnpm run build
 ```
