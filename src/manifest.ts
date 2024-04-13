@@ -1,23 +1,24 @@
 import { JSONSchemaForWebApplicationManifestFiles as Manifest } from "@schemastore/web-manifest";
 
-function getMetaContent(element: HTMLElement, name: string) {
-  return element.querySelector<HTMLMetaElement>(`meta[name~="${name}"], meta[property~="${name}"]`)
-    ?.content;
+export function createManifestLink(document: Document, data?: Manifest) {
+  if (!data) {
+    const url = new URL(document.location.href);
+    data = getManifestData(document.head, url);
+  }
+  const link = document.createElement("link");
+  link.rel = "manifest";
+  link.href = createDataURI(JSON.stringify(data), "application/json");
+  return link;
 }
 
 export function getManifestData(head: HTMLHeadElement, url: URL) {
   const root = new URL("/", url);
-  const start = new URL(url);
-  if (!start.pathname.endsWith("/")) start.pathname += "/";
-  start.searchParams.set("istart", "1");
-  start.searchParams.set("max_w", "9999");
-  start.searchParams.set("max_h", "9999");
   const color = "#00c9ff";
 
   const manifest: Manifest = {
     name: head.querySelector<HTMLTitleElement>("title")?.text,
     description: getMetaContent(head, "description"),
-    start_url: start.href,
+    start_url: url.href,
     scope: root.href,
     display: "fullscreen",
     theme_color: color,
@@ -31,6 +32,11 @@ export function getManifestData(head: HTMLHeadElement, url: URL) {
     ],
   };
   return manifest;
+}
+
+export function getMetaContent(element: HTMLElement, name: string) {
+  return element.querySelector<HTMLMetaElement>(`meta[name~="${name}"], meta[property~="${name}"]`)
+    ?.content;
 }
 
 export function createDataURI(data: string, mediatype?: string, base64?: false): string;

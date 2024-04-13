@@ -1,13 +1,10 @@
-import { getManifestData, createDataURI } from "./manifest";
+import { createManifestLink } from "./manifest";
+import { updateLocation, sanitizePath, setFullscreen, setInstantStart } from "./location";
 
-try {
-  const url = new URL(document.location.href);
-  const manifestData = getManifestData(document.head, url);
+document.head.append(createManifestLink(document));
 
-  const manifestLink = document.createElement("link");
-  manifestLink.rel = "manifest";
-  manifestLink.href = createDataURI(JSON.stringify(manifestData), "application/json");
-  document.head.append(manifestLink);
-} catch (err) {
-  alert(err);
-}
+const url = new URL(document.location.href);
+sanitizePath(url);
+setInstantStart(url);
+setFullscreen(url);
+updateLocation(document.location, url);

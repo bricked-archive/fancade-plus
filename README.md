@@ -6,12 +6,17 @@
 A userscript to make [Fancade Web](https://play.fancade.com) more accessible on mobile.
 
 ## Features
+
 - Install Fancade Web like a native app
-- Always go full screen and play instantly on the installed app
+- Instantly immerse into full-screen game play
+- Physical keyboard support
+- Increased feature parity
 
 ## Using
 
-Install the [latest userscript](https://github.com/brckd/fancade-plus/releases/latest/download/fancade-plus.user.js) in a browser that supports doing so.
+Install the
+[latest userscript](https://github.com/brckd/fancade-plus/releases/latest/download/fancade-plus.user.js)
+in a browser that supports doing so.
 
 - [Cromite](https://github.com/uazo/cromite) and Bromite
   [support userscripts natively](https://github.com/bromite/bromite/wiki/UserScripts).
