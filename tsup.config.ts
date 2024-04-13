@@ -5,6 +5,9 @@ export default defineConfig({
   ...config,
   entry: ["src/fancade-plus.user.ts"],
   tsconfig: "src/tsconfig.json",
+	loader: {
+		".css": "text",
+	},
   banner: {
     js: `
 		// ==UserScript==

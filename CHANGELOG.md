@@ -1,9 +1,9 @@
 # [1.2.0](https://github.com/brckd/fancade-plus/compare/v1.1.0...v1.2.0) (2024-04-13)
 
-
 ### Features
 
-* hide cookie settings ([b3dbf36](https://github.com/brckd/fancade-plus/commit/b3dbf363d0e732717cf5802e05f2e2563e83b25c))
+- hide cookie settings
+  ([b3dbf36](https://github.com/brckd/fancade-plus/commit/b3dbf363d0e732717cf5802e05f2e2563e83b25c))
 
 # [1.1.0](https://github.com/brckd/fancade-plus/compare/v1.0.1...v1.1.0) (2024-04-13)
 
