@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/brckd/fancade-plus/compare/v1.2.0...v1.3.0) (2024-04-13)
+
+
+### Features
+
+* add global style ([26402c0](https://github.com/brckd/fancade-plus/commit/26402c0f561b08a380a7fbb5d394ab5e49f2bdb6))
+
 # [1.2.0](https://github.com/brckd/fancade-plus/compare/v1.1.0...v1.2.0) (2024-04-13)
 
 ### Features
