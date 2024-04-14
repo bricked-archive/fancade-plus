@@ -1,9 +1,16 @@
-# [1.4.0](https://github.com/brckd/fancade-plus/compare/v1.3.0...v1.4.0) (2024-04-14)
+## [1.4.1](https://github.com/brckd/fancade-plus/compare/v1.4.0...v1.4.1) (2024-04-14)
 
+
+### Bug Fixes
+
+* dont override url params ([cef2b55](https://github.com/brckd/fancade-plus/commit/cef2b55c5d3a56423a4de4898115ffe347268f2c))
+
+# [1.4.0](https://github.com/brckd/fancade-plus/compare/v1.3.0...v1.4.0) (2024-04-14)
 
 ### Features
 
-* add floating action button ([15578e9](https://github.com/brckd/fancade-plus/commit/15578e99ca821fa9efa4419f594f87b2862ac990))
+- add floating action button
+  ([15578e9](https://github.com/brckd/fancade-plus/commit/15578e99ca821fa9efa4419f594f87b2862ac990))
 
 # [1.3.0](https://github.com/brckd/fancade-plus/compare/v1.2.0...v1.3.0) (2024-04-13)
 
