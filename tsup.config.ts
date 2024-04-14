@@ -5,15 +5,16 @@ export default defineConfig({
   ...config,
   entry: ["src/fancade-plus.user.ts"],
   tsconfig: "src/tsconfig.json",
-	loader: {
-		".css": "text",
-	},
+  loader: {
+    ".css": "text",
+  },
   banner: {
     js: `
 		// ==UserScript==
 		// @name        Fancade Plus
 		// @namespace   https://play.fancade.com
 		// @match       https://play.fancade.com/*
+		// @exclude     https://play.fancade.com/webapp/*
 		// @author      Bricked
 		// @license     MIT
 	  // @description Makes Fancade Web more accessible on mobile.
