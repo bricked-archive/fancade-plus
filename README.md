@@ -8,8 +8,10 @@ A userscript to make [Fancade Web](https://play.fancade.com) more accessible on 
 ## Features
 
 - Install Fancade Web like a native app
+- Also install games separately
 - Jump right into full-screen game play
 - Say goodbye to pesky cookie settings
+- Use floating button to trigger keyboard actions
 - Create faster with physical keyboard support
 - Enjoy overall increased feature parity
 
@@ -25,7 +27,7 @@ in a browser that supports doing so.
   [install userscript managers](https://openuserjs.org/about/Userscript-Beginners-HOWTO#how-do-i-get-going-)
   as addons.
 
-Then go to [Fancade Web](https://play.fancade.com) to use it.
+Then head over to [Fancade Web](https://play.fancade.com) and install the web app. To install a game separately, just visit its url and install it.
 
 ## Building
 
