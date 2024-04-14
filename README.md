@@ -23,9 +23,11 @@ in a browser that supports doing so.
 
 - [Cromite](https://github.com/uazo/cromite) and Bromite
   [support userscripts natively](https://github.com/bromite/bromite/wiki/UserScripts).
-- [Kiwi](https://kiwibrowser.com) and Firefox mobile derivatives let you
+- [Kiwi](https://kiwibrowser.com) and Firefox mobile derivatives like [Mull](https://gitlab.com/divested-mobile/mull-fenix) let you
   [install userscript managers](https://openuserjs.org/about/Userscript-Beginners-HOWTO#how-do-i-get-going-)
   as addons.
+  
+The browsers linked above have been tested to work on both my android phone and tablet.
 
 Then head over to [Fancade Web](https://play.fancade.com) and install the web app. To install a game separately, just visit its url and install it.
 
