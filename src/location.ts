@@ -6,16 +6,16 @@ export function sanitizePath(url: URL) {
   if (!url.pathname.endsWith("/")) url.pathname += "/";
 }
 
-export function setSearchParam(url: URL, param: string, value: string | number, enable: boolean) {
-  if (enable) url.searchParams.set(param, value.toString());
-  else url.searchParams.delete(param);
+export function setSearchParam(url: URL, param: string, value: string | number) {
+  const searchParams = url.searchParams;
+  if (!searchParams.has(param)) searchParams.set(param, value.toString());
 }
 
-export function setFullscreen(url: URL, enable = true) {
-  setSearchParam(url, "max_w", 9999, enable);
-  setSearchParam(url, "max_h", 9999, enable);
+export function setFullscreen(url: URL) {
+  setSearchParam(url, "max_w", 9999);
+  setSearchParam(url, "max_h", 9999);
 }
 
-export function setInstantStart(url: URL, enable = true) {
-  setSearchParam(url, "istart", 1, enable);
+export function setInstantStart(url: URL) {
+  setSearchParam(url, "istart", 1);
 }
