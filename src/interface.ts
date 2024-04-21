@@ -6,7 +6,7 @@ export function createFab() {
 
 export function dispatchKeypress(data: KeyboardEventInit) {
   window.dispatchEvent(new KeyboardEvent("keydown", data));
-	window.dispatchEvent(new KeyboardEvent("keyup", data));
+  window.dispatchEvent(new KeyboardEvent("keyup", data));
 }
 
 export async function fadeIn(element: HTMLElement) {

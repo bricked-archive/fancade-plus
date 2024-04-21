@@ -1,9 +1,9 @@
 ## [1.4.2](https://github.com/brckd/fancade-plus/compare/v1.4.1...v1.4.2) (2024-04-14)
 
-
 ### Bug Fixes
 
-* dont execute userscript on internal files ([61b33f1](https://github.com/brckd/fancade-plus/commit/61b33f1527449c0dfbfde2823f359a95a3f1575c))
+- dont execute userscript on internal files
+  ([61b33f1](https://github.com/brckd/fancade-plus/commit/61b33f1527449c0dfbfde2823f359a95a3f1575c))
 
 ## [1.4.1](https://github.com/brckd/fancade-plus/compare/v1.4.0...v1.4.1) (2024-04-14)
 
