@@ -3,7 +3,7 @@ import config from "@bricked/tsup-config/minify";
 
 export default defineConfig({
   ...config,
-  entry: ["src/fancade-plus.user.ts"],
+  entry: ["src/*.user.ts"],
   tsconfig: "src/tsconfig.json",
   loader: {
     ".css": "text",
