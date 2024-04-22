@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/brckd/fancade-plus/compare/v1.4.2...v1.5.0) (2024-04-22)
+
+
+### Features
+
+* add debug user script ([42b286c](https://github.com/brckd/fancade-plus/commit/42b286cf2c3c85da1d6895033ff647472234f095))
+
 ## [1.4.2](https://github.com/brckd/fancade-plus/compare/v1.4.1...v1.4.2) (2024-04-14)
 
 ### Bug Fixes
