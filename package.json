@@ -50,7 +50,7 @@
     "@schemastore/web-manifest": "^0.0.6",
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "commitlint": "^17.6.6",
-    "eslint": "^8.48.0",
+    "eslint": "^9.6.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^16.0.2",
